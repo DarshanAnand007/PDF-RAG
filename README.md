@@ -1,9 +1,5 @@
 # Awesome-RAG
 
-> For discussions and doubt-solving: Join Our Community
-
-<a href="https://discord.gg/hEMqtDXCHA">
-<img src="https://discord.com/api/guilds/939520548726272010/widget.png?style=banner1"></a>
 
 ## Notebooks
 
@@ -26,20 +22,7 @@
 | Superfast RAG using Langchain Streaming and Groq | Langchain and Groq | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/152P-7aZKMXp2VvDctbO_aHBqE9crtWiU?usp=sharing) |
 
 
-## YouTube Videos
 
-- [Embedchain AI in one video](https://www.youtube.com/watch?v=vIhDh7H73Ww)
-- [Chatbot like ChatGPT: Chat with Multiple Website using Langchain](https://www.youtube.com/watch?v=vBBRwDca5Uo)
-- [RAG using Open Source LLMs](https://www.youtube.com/watch?v=dUkiQ_WI92c)
-- [Advanced RAG- Langchain and HuggingFace](https://www.youtube.com/watch?v=oUQHBNVVEH4)
-- [Hybrid Search Langchain](https://www.youtube.com/watch?v=kSVGpbqYLYs)
-- [LlamaIndex and HuggingFace- Ultimate Guide](https://www.youtube.com/watch?v=38JKFag3MOk)
-- [Getting started with Gemini with LlamaIndex](https://www.youtube.com/watch?v=jotnU2MRU3w)
-- [Faster Response with Streamlit and Langchain Streaming](https://www.youtube.com/watch?v=xw7t_LAqV7E)
-- [Qdrant and Langchain](https://www.youtube.com/watch?v=sxtnbOYAUps)
-- [Ollama and Langchain || Run LLMs locally](https://www.youtube.com/watch?v=vE_njT3GdY8)
-- [Langchain Streaming and Groq](https://www.youtube.com/watch?v=frMdOL8knqg)
-- [Evaluate RAG using Open Source LLMs](https://www.youtube.com/watch?v=qkl2e6VT1aE)
 
 ## Libraries
 - [BeyondLLM](https://github.com/aiplanethub/beyondllm)
@@ -54,19 +37,3 @@
 - [REALM](https://huggingface.co/docs/transformers/model_doc/realm)
 - [Verba](https://github.com/weaviate/Verba)
 
-## Blogs
-
-- [RAG and Advanced articles - AI Planet Medium](https://medium.aiplanet.com/)
-- [A Comprehensive Guide to Implement HuggingFace Models Using Langchain](https://www.analyticsvidhya.com/blog/2023/12/implement-huggingface-models-using-langchain/)
-- [Multimodal Using Gemini and LlamaIndex](https://medium.com/@jaintarun7/multimodal-using-gemini-and-llamaindex-f622a190cc32)
-
-## Live Sessions
-
-- [Qdrant 101- Qdrant as knowledge base](https://www.youtube.com/watch?v=Fwqp79mVfpQ)
-- [Milvus 101- Most advanced VectorDB](https://www.youtube.com/watch?v=ZABs7HcMPR0)
-
-## Misc & Use Cases
-
-- [Evaluate RAG using Open Source LLM](https://github.com/lucifertrj/Awesome-RAG/tree/main/evaluate_open_source)
-- [Health Assistant Bot](https://github.com/lucifertrj/Awesome-RAG/tree/main/apps/HealthBot)
-- [Research Paper Bot](https://github.com/lucifertrj/Awesome-RAG/tree/main/apps/ResearchPaperBot)
