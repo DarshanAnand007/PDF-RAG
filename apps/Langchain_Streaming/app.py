@@ -13,7 +13,7 @@ from langchain.schema import StrOutputParser
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 from langchain_community.vectorstores import Chroma
 
-HF_TOKEN = st.secrets['HUGGINGFACEHUB_API_TOKEN']
+HF_TOKEN = st.secrets['HUGGINGFACEHUB_ACCESS_TOKEN']
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
 
 embeddings = HuggingFaceInferenceAPIEmbeddings(
