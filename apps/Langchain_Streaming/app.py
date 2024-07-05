@@ -5,7 +5,6 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import os
 import my_api
 import streamlit as st
-import sqlite3
 import time
 from langchain_community.llms import Cohere
 from langchain_community.llms import HuggingFaceHub
@@ -13,12 +12,12 @@ from langchain.prompts import HumanMessagePromptTemplate
 from langchain_core.messages import SystemMessage
 from langchain.memory import ConversationBufferMemory
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
-from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.schema import StrOutputParser
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 from langchain_community.vectorstores import Chroma
 
-HF_TOKEN = st.secrets['HUGGINGFACEHUB_ACCESS_TOKEN']
+HF_TOKEN = st.secrets['HUGGINGFACEHUB_API_TOKEN']
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
 
 embeddings = HuggingFaceInferenceAPIEmbeddings(
