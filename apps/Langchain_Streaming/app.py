@@ -5,6 +5,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import os
 import my_api
 import streamlit as st
+import sqlite3
 import time
 from langchain_community.llms import Cohere
 from langchain_community.llms import HuggingFaceHub
